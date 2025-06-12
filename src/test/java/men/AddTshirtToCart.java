@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import com.shopperstack.genericUtility.BaseClassShopperstack;
 import com.shopperstack.objectRepository.WelcomePageShopperstack;
 
-public class AddTshirtToCart extends BaseClassShopperstack {
+public class AddTshirtToCart {
 	@Test
 	public void addTshirtToCart() throws InterruptedException
 	{
