@@ -32,6 +32,24 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>5.2.3</version>
 		</dependency>
-
 	</dependencies>
+	<profiles>
+	<profile>
+			<id>testSST</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.3.1</version>
+						<configuration>
+							<suiteXmlFiles>
+								<suiteXmlFile>TestSSTtestng.xml</suiteXmlFile>
+							</suiteXmlFiles>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>	
+	</profiles>
 </project>

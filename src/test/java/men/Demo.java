@@ -8,7 +8,6 @@ public class Demo {
 	public void demo()
 	{
 		System.out.println("ShopperStack demooo");
-		System.out.println("Working with GIT bash ");
 
 	}
 }
